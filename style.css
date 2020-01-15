@@ -9,12 +9,12 @@ body {
 }
 
 
-.main {
+#main {
     margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 10px;
     margin-left: 50px;   
-    border: 1px dashed red;   
+    /*border: 1px dashed red; */ 
 }
 
 
@@ -33,31 +33,39 @@ header, nav, footer {
     text-align: center;
 }
 
-article{
+.article-main{
     color: ebebeb;
+    padding: 10px;
     background: #777;
     margin-top: 5px;
     margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;  
+    margin-left: 10px;   
+    color: #ebebeb;
 }
 
+.article-info {
+    margin: 10px;
+    text-align: center;
+    color: #777;   
+ 
+}
 
-section {
-    
+.section-main {
     width: 55%;
-    height: 400px;
+    height: 450px;
     float: left;
     line-height: 5rem;
   }
   
-  aside {
-  
+  .aside-main {
     width: 40%;
-    height: 400px;
+    height: 450px;
     float: right;
     line-height: 5rem;
 }
+
+
+
 
 
 h1 {
